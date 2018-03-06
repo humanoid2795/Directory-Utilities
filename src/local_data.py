@@ -3,7 +3,7 @@ import os
 import sys
 
 from sets import Set
-from directory_organizer_exceptions import PlatformError, ConfigError, \
+from directory_utility_exceptions import PlatformError, ConfigError, \
     ExtensionError
 
 CONFIG_FILE = 'config'
