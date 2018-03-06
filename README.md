@@ -38,7 +38,7 @@ The ExtensionClass supports **add**, **update**, **delete** methods to add a new
 In case of a single extension belonging to more than one category, the extension will be assumed to be only with the lexicographically smallest *directory* name.
 
 ### LargestFile
-The LargestFile class is responsible for computing n largest files by size in a directory. The class stores a **min-heap** of size *n* and based on the **Root** path specified in the config file it scans *acceptable* files and returns the *n* largest files in the directory.
+The LargestFile class is responsible for computing n largest files by size in a directory. The class stores a **min-heap** of size *n* and based on the *Root* path specified in the config file it scans *acceptable* files and returns the *n* largest files in the directory.
 
 ### ClutterRemover
 The clutterRemover class is responsible for removing clutter from the *SourcePath* directory and storing the files in the *DestinationPath* directory. 
